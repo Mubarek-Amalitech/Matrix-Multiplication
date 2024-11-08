@@ -13,10 +13,10 @@ The main objectives of this project are to gain an understanding of several core
 
 The program will perform the multiplication of two matrices, `A` and `B`, that are provided by the user. The result of the matrix multiplication will be stored in a third matrix, `C`, which will then be displayed to the user.
 
-#Sample Input
+### Sample Input
 ![Screenshot 2024-11-08 122127](https://github.com/user-attachments/assets/b7b1e0e7-6fa2-4511-b8ae-0e4b1bfbd30b)
 
 
-#Sample Output
+### Sample Output
 ![Screenshot 2024-11-08 122156](https://github.com/user-attachments/assets/8c58ef58-6336-4a57-ad2f-678f9038e259)
 
