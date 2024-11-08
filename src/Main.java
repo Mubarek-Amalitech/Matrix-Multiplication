@@ -15,7 +15,8 @@ public class Main {
 
     public static void MatrixMultiplication(int[][] MatrixA, int[][] MatrixB, int mARows, int mAColumns, int mBRows, int mBColumns) {
         if (mARows != mBColumns) {
-            throw new IllegalArgumentException(" ");
+            throw new RowsAndColumnNotMatchException(" the provided rows in the matrix A does not match the " +
+                    "provided columns in matrix B");
 
         }
         int[][] MatrixC = new int[mARows][mBColumns];
@@ -42,8 +43,6 @@ public class Main {
         DisplayMatrix(MatrixC, mARows, mBColumns);
 
     }
-
-
 
 
     /**
